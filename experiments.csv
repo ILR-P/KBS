@@ -1,0 +1,7 @@
+name,arch,encoder,resolution,aug,class_weights,epochs,mIoU,pixel_acc,IoU_Car,IoU_Pedestrian,IoU_Pole,IoU_Traffic Sign,mIoU_Sunny,mIoU_Rainy,mIoU_Cloudy,minutes
+baseline,Unet,resnet34,384x288,flip,False,10,0.7256,0.9452,0.8936,0.5745,0.3936,0.5442,0.7196,0.5753,0.6605,26.6
+strong_aug,Unet,resnet34,384x288,strong,False,10,0.7245,0.9484,0.9013,0.5492,0.4245,0.5275,0.7202,0.5772,0.6549,26.5
+class_weights,Unet,resnet34,384x288,flip,True,10,0.7266,0.945,0.8949,0.5757,0.4178,0.5221,0.7222,0.5714,0.6581,26.6
+deeplabv3plus,DeepLabV3Plus,resnet34,384x288,flip,False,10,0.7025,0.9382,0.871,0.565,0.361,0.4852,0.6944,0.5776,0.6206,25.4
+resnet50,Unet,resnet50,384x288,flip,False,10,0.7366,0.9469,0.8863,0.5846,0.4363,0.5526,0.7202,0.5969,0.673,42.6
+hires_512,Unet,resnet34,512x384,flip,False,10,0.7456,0.9506,0.9041,0.6248,0.464,0.5846,0.7272,0.6011,0.6882,44.6

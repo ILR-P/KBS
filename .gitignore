@@ -1,0 +1,20 @@
+# Dataset and cached arrays (several GB)
+data/
+*.npz
+*.tar
+*.zip
+
+# Trained models (~100 MB+ each, over GitHub's file limit)
+*.pth
+
+# Generated videos
+*.mp4
+
+# Simulator / robot downloads, if you put them in this folder
+CARLA*/
+Raspblock*/
+
+# Python / Jupyter / editor clutter
+__pycache__/
+.ipynb_checkpoints/
+.vscode/
